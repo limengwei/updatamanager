@@ -1,0 +1,13 @@
+<form enctype="multipart/form-data" action="/upload" method="POST">
+    选择apk: <input name="apkfile" type="file"/>
+<p>
+	版本号： <input name="versioncode"/>
+<p>
+	版本名称： <input name="versionname"/>
+<p>
+	本本描述： <textarea name="versionsummary"></textarea>
+<p>
+    <input type="submit" />
+	<p>
+	<font color="#f55" >{{.err}}</font>
+</form>
