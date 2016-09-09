@@ -1,3 +1,51 @@
+
+
+<style>
+
+div,table{
+	float:left;
+	width:100%;
+}
+
+td{
+	text-align: center;
+}
+
+
+.list,.form{
+	width:50%;
+}
+
+</style>
+
+<div>
+
+<div class="list">
+<table>
+  <thead>
+    <tr>
+      <th>名字</th>
+      <th>包名</th>
+ 	  <th>版本名称</th>
+	  <th>版本号</th>
+	 <th>操作</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>appname</td>
+      <td>org.lmw.app</td>
+      <td>2.0.1</td>
+      <td>666</td>
+	<td><a href="#">编辑</a> / <a href="#">更新</a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<div class="form">
 <form enctype="multipart/form-data" action="/upload" method="POST">
     选择apk: <input name="apkfile" type="file"/>
 <p>
@@ -11,3 +59,6 @@
 	<p>
 	<font color="#f55" >{{.err}}</font>
 </form>
+</div>
+
+</div>

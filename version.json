@@ -1,1 +1,41 @@
-{"version_code":666,"version_name":"ss","version_summary":"ddd","download_url":"http://localhost:1024/static/5797087b.apk"}
+[
+  {
+    "name": "云珍宝",
+	"package": "com.yimu.yunzhenbao",
+    "versions": [
+      {
+        "version_code": 666,
+        "version_name": "ss",
+        "version_summary": "ddd",
+        "download_url": "http://localhost:1024/static/5797087b.apk",
+		"update_node":"更新日志"
+      }
+    ]
+  },
+  {
+    "name": "跑诊通",
+	"package": "com.yimu.paozhen",
+    "versions": [
+      {
+        "version_code": 666,
+        "version_name": "ss",
+        "version_summary": "ddd",
+        "download_url": "http://localhost:1024/static/5797087b.apk",
+		"update_node":"更新日志"
+      }
+    ]
+  },
+  {
+    "name": "天使导医",
+	"package": "com.yimu.daoyi",
+    "versions": [
+      {
+        "version_code": 666,
+        "version_name": "ss",
+        "version_summary": "ddd",
+        "download_url": "http://localhost:1024/static/5797087b.apk",
+		"update_node":"更新日志"
+      }
+    ]
+  }
+]

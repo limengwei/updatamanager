@@ -94,6 +94,13 @@ type Version struct {
 	Name    string `json:"version_name"`
 	Summary string `json:"version_summary"`
 	Url     string `json:"download_url"`
+	Node    string `json:"update_node"`
+}
+
+type App struct {
+	Name     string    `json:"name"`
+	Package  string    `json:"package"`
+	Versions []Version `json:"versions"`
 }
 
 //请求最新版本信息
